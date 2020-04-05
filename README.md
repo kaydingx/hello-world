@@ -1,5 +1,5 @@
 # hello-world
-play github
+play github:+1:
 
 this is a branch test, so I add some info here.
 
