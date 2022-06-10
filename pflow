@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T07:35:59.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ReMZBolfaizKk0jqYDvF" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T07:46:50.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="OOT3YccmchxBHB-HfSqc" version="19.0.3" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="2062" dy="1122" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -296,6 +296,15 @@
         </mxCell>
         <mxCell id="UaUqfjnhGdybjwUz7pyu-38" value="报告错误信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="510" y="1580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UaUqfjnhGdybjwUz7pyu-54" value="" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;strokeWidth=1;fillColor=#2137FF;" vertex="1" parent="1">
+          <mxGeometry x="672" y="1257" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UaUqfjnhGdybjwUz7pyu-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="723" y="1300" as="sourcePoint" />
+            <mxPoint x="918" y="1195" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
