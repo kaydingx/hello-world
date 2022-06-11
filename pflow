@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-11T15:31:03.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="_xFdcjSi2LWW59XCAxFb" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-11T15:32:07.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="764PphufAArvZTb28CjT" version="19.0.3" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="2062" dy="1122" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -855,13 +855,13 @@
           <mxGeometry x="127" y="76" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JLgRmeclA72d5cu62bjI-139" value="&lt;font color=&quot;#000000&quot;&gt;1. 初始点云和初始中心点&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#00FF00;" vertex="1" parent="1">
-          <mxGeometry x="157" y="2887" width="140" height="30" as="geometry" />
+          <mxGeometry x="159" y="2887" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JLgRmeclA72d5cu62bjI-140" value="&lt;font color=&quot;#000000&quot;&gt;2. 第一次聚类迭代&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#00FF00;" vertex="1" parent="1">
-          <mxGeometry x="382" y="2888" width="140" height="30" as="geometry" />
+          <mxGeometry x="383" y="2887" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JLgRmeclA72d5cu62bjI-141" value="&lt;font color=&quot;#000000&quot;&gt;4. 第二次聚类迭代&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#00FF00;" vertex="1" parent="1">
-          <mxGeometry x="138" y="3135" width="140" height="30" as="geometry" />
+          <mxGeometry x="140" y="3134" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JLgRmeclA72d5cu62bjI-142" value="&lt;font color=&quot;#000000&quot;&gt;3. 更新中心点&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#00FF00;" vertex="1" parent="1">
           <mxGeometry x="601" y="2887" width="140" height="30" as="geometry" />
@@ -939,7 +939,7 @@
           <mxGeometry x="115" y="47" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JLgRmeclA72d5cu62bjI-167" value="&lt;font color=&quot;#000000&quot;&gt;5. 更新中心点&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontColor=#00FF00;" vertex="1" parent="1">
-          <mxGeometry x="368" y="3134" width="140" height="30" as="geometry" />
+          <mxGeometry x="374" y="3135" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JLgRmeclA72d5cu62bjI-168" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="577" y="2916" width="219" height="219" as="geometry" />
