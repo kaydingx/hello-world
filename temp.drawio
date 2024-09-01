@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-25T03:16:21.518Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="nMdRFbRh4ZEUlGvY5mBb" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,20 +102,35 @@
             <mxPoint x="266" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0FHECyoi1kmDxe4JBDvZ-1" value="SceneColor&lt;br&gt;&amp;amp;&lt;br&gt;Depth" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="21" y="585" width="120" height="80" as="geometry" />
+        <mxCell id="QdXTANoXACwTGH81tIKD-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0FHECyoi1kmDxe4JBDvZ-1" target="0FHECyoi1kmDxe4JBDvZ-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0FHECyoi1kmDxe4JBDvZ-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="630" as="sourcePoint" />
-            <mxPoint x="170" y="630" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="0FHECyoi1kmDxe4JBDvZ-1" value="确定优化场景" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="30" y="515" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0FHECyoi1kmDxe4JBDvZ-3" value="Downsample&lt;br&gt;&amp;amp;&lt;br&gt;Coc compute" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="179.5" y="595" width="151" height="60" as="geometry" />
+        <mxCell id="QdXTANoXACwTGH81tIKD-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0FHECyoi1kmDxe4JBDvZ-3" target="0FHECyoi1kmDxe4JBDvZ-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0FHECyoi1kmDxe4JBDvZ-4" value="Downsample&lt;br&gt;&amp;amp;&lt;br&gt;Coc compute" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="370" y="540" width="151" height="60" as="geometry" />
+        <mxCell id="0FHECyoi1kmDxe4JBDvZ-3" value="得到性能数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="195" y="525" width="151" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QdXTANoXACwTGH81tIKD-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0FHECyoi1kmDxe4JBDvZ-4" target="QdXTANoXACwTGH81tIKD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FHECyoi1kmDxe4JBDvZ-4" value="分析性能瓶颈" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="390" y="525" width="151" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QdXTANoXACwTGH81tIKD-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QdXTANoXACwTGH81tIKD-4" target="QdXTANoXACwTGH81tIKD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QdXTANoXACwTGH81tIKD-4" value="量化优化目标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="390" y="620" width="151" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QdXTANoXACwTGH81tIKD-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QdXTANoXACwTGH81tIKD-5" target="0FHECyoi1kmDxe4JBDvZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QdXTANoXACwTGH81tIKD-5" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1，静态/动态资产扫描&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2，对问题资产进行优化&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="195" y="620" width="151" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
